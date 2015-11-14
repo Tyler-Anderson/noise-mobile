@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Noise Thing</title>
   <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext'
         rel='stylesheet' type='text/css'>
@@ -14,13 +15,13 @@
 <span id="title">
     <h1>Noise Thing</h1>
     <h4>Volume</h4>
-    <div style="margin-bottom:15px;"><span id="percent">0 %</span></div>
+    <div><span id="percent">0 %</span></div>
 </span>
 
 <div id="root-container">
     <canvas nx="dial" id="masterVolume" style="
-                            width:170px;
-                            height:170px;">
+                            width:120px;
+                            height:120px;">
     </canvas>
     <div class="single-Item" id="switch" style="margin-top:20px;">
         <input type="checkbox" id="power" class="js-switch" />
@@ -30,13 +31,13 @@
  <div class="container">
      <div id="bar-root">
     <div class="control-col" id="bar1">
-    <canvas nx="slider" height="300" width="45" id="whiteVolume" class="slider"></canvas>
+    <canvas nx="slider" height="220" width="35" id="whiteVolume" class="slider"></canvas>
     </div>
     <div class="control-col" id="bar2">
-    <canvas nx="slider" height="300" width="45" id="pinkVolume" class="slider"></canvas>
+    <canvas nx="slider" height="220" width="35" id="pinkVolume" class="slider"></canvas>
     </div>
     <div class="control-col" id="bar3">
-    <canvas nx="slider" height="300" width="45" id="brownVolume" class="slider"></canvas>
+    <canvas nx="slider" height="220" width="35" id="brownVolume" class="slider"></canvas>
     </div>
      </div>
  </div>
