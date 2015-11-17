@@ -12,7 +12,17 @@
         },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "nl.x-services.plugins.backgroundaudio": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "de.appplant.cordova.plugin.background-mode": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        }
+    }
 }

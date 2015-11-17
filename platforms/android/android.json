@@ -31,6 +31,18 @@
                         {
                             "xml": "<preference default=\"true\" name=\"xwalkMultipleApk\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"BackgroundMode\"><param name=\"android-package\" value=\"de.appplant.cordova.plugin.background.BackgroundMode\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"KeepRunning\" value=\"true\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -46,6 +58,12 @@
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
                             "count": 1
                         }
+                    ],
+                    "/manifest/application": [
+                        {
+                            "xml": "<service android:name=\"de.appplant.cordova.plugin.background.ForegroundService\" />",
+                            "count": 1
+                        }
                     ]
                 }
             }
@@ -57,6 +75,15 @@
         },
         "cordova-plugin-crosswalk-webview": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "nl.x-services.plugins.backgroundaudio": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "de.appplant.cordova.plugin.background-mode": {
+            "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
     "dependent_plugins": {},
@@ -66,6 +93,23 @@
             "id": "cordova-plugin-whitelist.whitelist",
             "pluginId": "cordova-plugin-whitelist",
             "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "file": "plugins/de.appplant.cordova.plugin.background-mode/www/background-mode.js",
+            "id": "de.appplant.cordova.plugin.background-mode.BackgroundMode",
+            "pluginId": "de.appplant.cordova.plugin.background-mode",
+            "clobbers": [
+                "cordova.plugins.backgroundMode",
+                "plugin.backgroundMode"
+            ]
         }
     ]
 }
