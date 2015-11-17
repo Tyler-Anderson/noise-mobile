@@ -43,6 +43,8 @@
 		193D6B50096F4293A9965027 /* APPBackgroundMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EAE22D296F42009E7C9DCB /* APPBackgroundMode.m */; };
 		093D29D0AA5D4C5081EF0095 /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9F8554E24A3B4E5DA14EE667 /* appbeep.wav */; };
 		8FA0BDADA79448A2AD07E4C0 /* BackgroundAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = F0407462F5734CD2A7F2B891 /* BackgroundAudio.m */; };
+		4165DC78D42E4128ACDEE6F5 /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D65B9382D86497586B6AA94 /* CDVSplashScreen.m */; };
+		4A5DF5021D584F87A6C07442 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 31125A3CFFD2496C9F6774E5 /* CDVViewController+SplashScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,10 @@
 		9F8554E24A3B4E5DA14EE667 /* appbeep.wav */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "appbeep.wav"; path = "appbeep.wav"; sourceTree = "<group>"; fileEncoding = 4; };
 		F0407462F5734CD2A7F2B891 /* BackgroundAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BackgroundAudio.m"; path = "nl.x-services.plugins.backgroundaudio/BackgroundAudio.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		CBA1BB8544D14163BE424885 /* BackgroundAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BackgroundAudio.h"; path = "nl.x-services.plugins.backgroundaudio/BackgroundAudio.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		7D65B9382D86497586B6AA94 /* CDVSplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVSplashScreen.m"; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		31125A3CFFD2496C9F6774E5 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		134015A0B4EC4AAABC028E24 /* CDVSplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVSplashScreen.h"; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		3240A09F9B654193A64EC860 /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +226,10 @@
 				8B6B5CD502BA4C4B999CC2A2 /* APPBackgroundMode.h */,
 				F0407462F5734CD2A7F2B891 /* BackgroundAudio.m */,
 				CBA1BB8544D14163BE424885 /* BackgroundAudio.h */,
+				7D65B9382D86497586B6AA94 /* CDVSplashScreen.m */,
+				31125A3CFFD2496C9F6774E5 /* CDVViewController+SplashScreen.m */,
+				134015A0B4EC4AAABC028E24 /* CDVSplashScreen.h */,
+				3240A09F9B654193A64EC860 /* CDVViewController+SplashScreen.h */,
 			);
 			name = Plugins;
 			path = "Noise Thing/Plugins";
@@ -408,6 +418,8 @@
 				16829CA123B34A6AA9AA50C8 /* CDVDevice.m in Sources */,
 				193D6B50096F4293A9965027 /* APPBackgroundMode.m in Sources */,
 				8FA0BDADA79448A2AD07E4C0 /* BackgroundAudio.m in Sources */,
+				4165DC78D42E4128ACDEE6F5 /* CDVSplashScreen.m in Sources */,
+				4A5DF5021D584F87A6C07442 /* CDVViewController+SplashScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
