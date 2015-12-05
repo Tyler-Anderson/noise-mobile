@@ -1,6 +1,15 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #d8d6a0; }
+  background-color: #d8d6a0; 
+  margin: auto;
+  height: 480px;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
 
 h1 {
   font-size: 45px;
@@ -18,8 +27,6 @@ h4 {
   color: #494132;
   margin-bottom: 3px; }
 
-#master-root {
-}
 
 #percent {
   margin-bottom: 5px; }

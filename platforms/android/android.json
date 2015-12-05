@@ -91,6 +91,9 @@
         },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "cordova-plugin-ios-longpress-fix": {
+            "PACKAGE_NAME": "io.cordova.noise_thing"
         }
     },
     "dependent_plugins": {},
@@ -126,5 +129,8 @@
                 "navigator.splashscreen"
             ]
         }
-    ]
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-ios-longpress-fix": "1.1.0"
+    }
 }

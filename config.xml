@@ -31,6 +31,7 @@
         <splash src="res/screen/ios/screen-ipad-portrait.png"           width="768" height="1024" />
         <splash src="res/screen/ios/screen-iphone6-portrait.png"        width="750" height="1334" />
         <splash src="res/screen/ios/screen-iphone6plus-portrait.png"    width="1242" height="2208" />
+        <splash src="res/screen/ios/screen-ipad-air-portrait.png"       width="1536" height="2048" />
 
         <preference name="Suppresses3DTouchGesture" value="true" />
         <preference name="SuppressesIncrementalRendering" value="true"/>

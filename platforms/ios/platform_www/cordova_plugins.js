@@ -28,6 +28,8 @@ module.exports = [
 ];
 module.exports.metadata = 
 // TOP OF METADATA
-{}
+{
+    "cordova-plugin-ios-longpress-fix": "1.1.0"
+}
 // BOTTOM OF METADATA
 });
