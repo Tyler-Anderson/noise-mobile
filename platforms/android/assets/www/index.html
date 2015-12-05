@@ -14,10 +14,12 @@
 <body>
 <div id="master-root">
 <div id="floating">
+<!--
     <div id="title-display">
-        <!--   <img alt="oops" src="./assets/title.svg"/>  -->
-        <!-- <h1>Noise Machine</h1> -->
+           <img alt="oops" src="./assets/title.svg"/>  
+         <h1>Noise Machine</h1> 
     </div>
+-->
 <div id="volume-container">
 <!--    <h4>Volume</h4>
     <div><span id="percent">0 %</span></div>
@@ -25,10 +27,12 @@
 </div>
 
 <div class="centered-block" id="root-container">
+    <div id="dial-container">
     <canvas nx="dial" id="masterVolume" style="
                             width:150px;
                             height:150px;">
     </canvas>
+    </div>
     <div class="centered-block" id="switch" style="margin-top:20px;">
         <input type="checkbox" id="power" class="js-switch" />
     </div>
@@ -37,13 +41,13 @@
  <div class="container">
      <div id="bar-root">
     <div class="control-col" id="bar1">
-    <canvas nx="slider" height="220" width="35" id="whiteVolume" class="slider"></canvas>
+    <canvas nx="slider" height="230" width="40" id="whiteVolume" class="slider"></canvas>
     </div>
     <div class="control-col" id="bar2">
-    <canvas nx="slider" height="220" width="35" id="pinkVolume" class="slider"></canvas>
+    <canvas nx="slider" height="230" width="40" id="pinkVolume" class="slider"></canvas>
     </div>
     <div class="control-col" id="bar3">
-    <canvas nx="slider" height="220" width="35" id="brownVolume" class="slider"></canvas>
+    <canvas nx="slider" height="230" width="40" id="brownVolume" class="slider"></canvas>
     </div>
      </div>
  </div>
