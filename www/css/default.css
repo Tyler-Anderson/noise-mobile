@@ -4,8 +4,6 @@ body {
   margin: auto;
   height: 480px;
   position: absolute;
-  overflow-x: hidden;
-  overflow-y: hidden;
   top: 0; left: 0; bottom: 0; right: 0;
 
 }
@@ -35,7 +33,13 @@ h4 {
   display: block; }
 
 .container {
-  display: block; }
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  display: block; 
+
+}
 
 .control-col {
   display: inline;
@@ -49,27 +53,23 @@ h4 {
   text-align: center; }
 
 #bar-root {
-  position: absolute;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 0%); }
+    display:inline-block;
+ }
 
 #volume-container {
-  margin-bottom: 8px;
   text-align: center; }
 
-#title-display {
-  display: block; }
-  #title-display img {
+#title-display img {
     display: none;
-    width: 100%; }
+    width: 100%; 
+}
 
 #master-root {
   position: relative;
-  width: 320;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 30px; }
+  margin-top: 30px; 
+}
 
 #dial-container {
   margin-bottom: 20px; }
